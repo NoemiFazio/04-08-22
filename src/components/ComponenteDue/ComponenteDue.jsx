@@ -1,10 +1,10 @@
 import "./index.css";
 import ComponenteUno from "../ComponenteUno/ComponenteUno";
 
-function ComponenteDue({ prop }) {
+function ComponenteDue({ children }) {
   return (
     <div className="ComponenteDue">
-      <ComponenteUno {...prop} />
+      <ComponenteUno>{children}</ComponenteUno>
     </div>
   );
 }

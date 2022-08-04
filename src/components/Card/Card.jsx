@@ -1,6 +1,7 @@
 import "./index.css";
+import { coloreEsadecimale } from "../api/api";
 
-function Card({ coloreEsadecimale = "blue" }) {
+function Card() {
   return (
     <div className="Card">
       <div className="Pantone" style={{ backgroundColor: coloreEsadecimale }} />

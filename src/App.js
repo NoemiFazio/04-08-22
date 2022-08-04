@@ -1,10 +1,10 @@
 import "./App.css";
-import CardList from "./components/CardList/CardList";
+import ComponenteQuattro from "./components/ComponenteQuattro/ComponenteQuattro";
 
-function App(coloreEsadecimale) {
+function App() {
   return (
     <div className="App">
-      <CardList {...coloreEsadecimale} />
+      <ComponenteQuattro />
     </div>
   );
 }
