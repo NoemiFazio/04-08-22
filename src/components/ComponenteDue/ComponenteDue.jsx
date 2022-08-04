@@ -1,10 +1,10 @@
 import "./index.css";
 import ComponenteUno from "../ComponenteUno/ComponenteUno";
 
-function ComponenteDue({ coloreEsadecimale }) {
+function ComponenteDue({ prop }) {
   return (
     <div className="ComponenteDue">
-      <ComponenteUno coloreEsadecimale={coloreEsadecimale} />
+      <ComponenteUno {...prop} />
     </div>
   );
 }

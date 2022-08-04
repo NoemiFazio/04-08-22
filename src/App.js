@@ -1,10 +1,10 @@
 import "./App.css";
 import CardList from "./components/CardList/CardList";
 
-function App() {
+function App(coloreEsadecimale) {
   return (
     <div className="App">
-      <CardList coloreEsadecimale="#0fffa3" />
+      <CardList {...coloreEsadecimale} />
     </div>
   );
 }

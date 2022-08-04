@@ -1,10 +1,10 @@
 import "./index.css";
 import ComponenteTre from "../ComponenteTre/ComponenteTre";
 
-function CardList({ coloreEsadecimale }) {
+function CardList({ prop }) {
   return (
     <div className="CardList">
-      <ComponenteTre coloreEsadecimale={coloreEsadecimale} />
+      <ComponenteTre coloreEsadecimale={prop} />
     </div>
   );
 }

@@ -1,10 +1,10 @@
 import "./index.css";
 import Card from "../Card/Card";
 
-function ComponenteUno({ coloreEsadecimale }) {
+function ComponenteUno({ prop }) {
   return (
     <div className="ComponenteUno">
-      <Card coloreEsadecimale={coloreEsadecimale} />
+      <Card {...prop} />
     </div>
   );
 }
